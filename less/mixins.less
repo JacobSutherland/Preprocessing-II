@@ -1,1 +1,18 @@
 // Mixins in here
+.flexIt(){
+    display: flex;
+    
+}
+
+.button(@button-bg, @buttonWidth){
+    // width: 20rem;
+    width: @buttonWidth;
+    height: 3.8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    // background-color: rgb(29, 151, 135);
+    background-color: @button-bg;
+    text-align: center;
+    padding-top: 4.5%;
+    color: white;
+}
